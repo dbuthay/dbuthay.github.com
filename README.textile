@@ -1,0 +1,13 @@
+h1. This is the data for Diego Buthay's blog
+
+It is automatically transformed by "Jekyll":http://www.jekyllrb.com/ into a static site whenever the repository is pushed to GitHub.
+
+h2. License
+
+Unless otherwise expressed, the directories and their contents are copyright Diego Buthay.
+
+The contents of the following directories copyright Diego Buthay:
+*_posts/*, *_drafts/*, *_ideas/*, *images/*
+
+Otherwise the contents of the repository are MIT licensed. Feel free to use the HTML and CSS as you please.
+This blog was originally forked from "Pencil Case Studio's blog":http://github.com/pencilcasestudio/pencilcasestudio.github.com/

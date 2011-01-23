@@ -1,10 +1,20 @@
-<html>
-    <head>
-        <title> dbuthay's blog .. random thoughts </title>
-    </head>
+---
+layout: blog
+keywords: web, website, developer, blog, full text search, indextank, coding
+description: Diego Buthay is a Software Engineer, currently living on Buenos Aires, Argentina.
+title: "&#9998; Diego Buthay's blog"
+body_id: index_page
+---
 
-    <body>
-        <h1>Jekyll is coming soooooon!</h1>
-        <h3>dbuthay is kinda lazy</h3>
-    </body>
-</html>
+{% for post in site.categories.article | limit: 7 %}
+<div class="blog_post">
+	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+	<span class="article_date dark_blue">{{ post.date | date: "%d %B %Y" }}</span>, <span class="author">{{ post.author }}</span><br />
+	<br />
+
+	{{ post.content }}
+</div><!-- /blog_post -->
+{% endfor %}
+
+<p>&laquo; <a href="archive">Archive</a>.</p>

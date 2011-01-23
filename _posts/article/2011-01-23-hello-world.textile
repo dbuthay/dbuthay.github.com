@@ -1,0 +1,14 @@
+---
+categories: article
+layout: post
+published: true
+title: Hello World
+author: Diego Buthay
+keywords: coding, jekyll
+description: This is a Hello World post.
+---
+
+This is a Hello World post. I figured I needed to start a blog a few years ago. I was lazy, so I didn't do it.
+Last year I began using "GitHub":http://github.com/ and really liked it. A couple of days ago I heard of "Jekyll":http://jekyllrb.com/, and thought it'd be a great fit for my hacky way of doing things. I didn't want to think about hosting my own Wordpress blog.
+
+I hope you'll be 'reading' from me in the near future. 
